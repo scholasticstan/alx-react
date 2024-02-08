@@ -18,4 +18,4 @@ describe("Test the uiReducer file", () => {
     const state = uiReducer(initialState, { type: 'DISPLAY_NOTIFICATION_DRAWER' });
     expect(state.toJS().isNotificationDrawerVisible).toBe(true);
   });
-});
+}); 
