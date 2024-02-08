@@ -5,7 +5,7 @@ const initialState = {
   isUserLoggedIn: false,
   user: {},
 };
-
+ 
 export const uiReducer = (state = initialState, action) => {
   switch(action.type) {
     case 'DISPLAY_NOTIFICATION_DRAWER':
